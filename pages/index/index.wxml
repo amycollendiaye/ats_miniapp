@@ -1,0 +1,15 @@
+<view   class ="content">
+    <header/>
+    <scroll-view>
+       <view    class= "w-100 h-10  d-flex flex-column p-2">
+            <text class ="bonjour"   >Bonjour👋 </text>
+            <text  class='fs-0 text-black'  > Explorons le Sénégal  </text>
+       </view>
+       <view    class= "w-100 h-10  d-flex flex-column p-2">
+            <input-search icon="search">
+            </input-search>
+        </view>
+    </scroll-view>
+    
+
+</view>

@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "img":"/components/ui/image/index"
+
+  }
+}

@@ -1,0 +1,14 @@
+.content{
+    width:100vw;
+    height:100vh;
+    
+ }
+ .bonjour{
+     font-size:64rpx;
+     color:#d1d1d;
+     line-height:1.15;
+      font-weight:700;
+       display: block;
+
+ }
+ .fs-0 { font-size: 42rpx !important; }

@@ -262,6 +262,7 @@ page {
    10. WIDTH
    ========================================================================== */
 
+.w-10  { width: 10% !important; }
 .w-25  { width: 25% !important; }
 .w-50  { width: 50% !important; }
 .w-75  { width: 75% !important; }
@@ -275,11 +276,14 @@ page {
    11. HEIGHT
    ========================================================================== */
 
-.h-25  { height: 25% !important; }
+.h-10  { height: 10% !important; }
+.h-25rpx  { height: 130rpx !important; }
+
 .h-50  { height: 50% !important; }
 .h-75  { height: 75% !important; }
 .h-100 { height: 100% !important; }
 .h-auto { height: auto !important; }
+.h-200rpx {height:200rpx !important;}
 
 .min-h-0    { min-height: 0 !important; }
 .min-h-100  { min-height: 100% !important; }
@@ -322,6 +326,7 @@ page {
 .fs-6 { font-size: 28rpx !important; }
 .fs-7 { font-size: 24rpx !important; }
 .fs-8 { font-size: 20rpx !important; }
+
 
 /* ==========================================================================
    15. TEXT COLOR

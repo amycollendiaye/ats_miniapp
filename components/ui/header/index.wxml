@@ -1,0 +1,5 @@
+<view class="d-flex align-items-end justify-content-center  w-100 h-200rpx border " > 
+    <view class="w-100 h-50 d-flex justify-content-center">   
+            <img src="/assets/images/logo.png" imageStyle="height:80rpx; width:140rpx" mode="aspectFill" />
+    </view>
+ </view>

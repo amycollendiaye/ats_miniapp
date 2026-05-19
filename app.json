@@ -1,7 +1,7 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/demo/index"
+    "components/ui/header/index"
   ],
   "style": "v2",
   "window": {

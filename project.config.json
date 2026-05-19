@@ -22,7 +22,7 @@
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
-	"projectname": "luxe_steps",
+	"projectname": "ats",
 	"scripts": {},
 	"permission": {
 		"scope.album": {

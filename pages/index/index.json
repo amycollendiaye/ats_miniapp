@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "header":"/components/ui/header/index",
+    "input-search":"/components/ui/input/index"
+  }
+}
