@@ -15,7 +15,10 @@
  */
 Component({
   properties: {
-    containerClass: String,
+    containerClass:{
+      type: String,
+      value: "position-absolute"
+    },
     bgColor: {
       type: String,
       value: '#F3F3F3',

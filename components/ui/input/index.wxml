@@ -7,7 +7,7 @@
     </picker>
   </block>
 
-  <block wx:elif="{{type === 'text'}}">
+  <block style="border-radius: 100px" wx:elif="{{type === 'text'}}">
     <input
       class="osn-input__field fs-8"
       value="{{value}}"

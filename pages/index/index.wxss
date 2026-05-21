@@ -4,11 +4,97 @@
     
  }
  .bonjour{
-     font-size:64rpx;
-     color:#d1d1d;
-     line-height:1.15;
-      font-weight:700;
-       display: block;
+    font-size:64rpx;
+    color:black;
+    line-height:1.15;
+    font-weight:700;
+    display: block;
 
  }
- .fs-0 { font-size: 42rpx !important; }
+
+.search-icon{
+    width: 30px;
+    height:25px;
+    top: 40rpx;
+    left: 30rpx
+}
+.input-focus {
+  border: solid green;
+}
+.text-dest{
+ font-size:40rpx;
+  color:black;
+      line-height:1.15;
+      padding-left:15rpx;
+      font-weight:500;
+}
+
+.scroll-list{
+  width:100%;
+  height :180rpx; 
+  border-bottom: 1rpx solid rgb(201, 196, 196) !important;
+   display: flex;
+   gap:5rpx;
+   align-items: center;
+    padding: 15rpx;
+}
+.button-zone {
+  width: 130rpx !important;
+  height: 90rpx !important;
+   border:2rpx solid rgb(223, 219, 219) !important;
+  border-radius: 25% !important;
+  display: inline-flex !important;
+  justify-content: center;
+  align-items: center;
+  background: white !important;
+   margin-right: 15rpx !important;
+  font-size: 25rpx !important;
+  color: rgb(5, 5, 5) !important;
+}
+.button-zone:hover {
+  background:#01953d !important;
+  color: white !important;
+  border: 2rpx solid rgb(232, 237, 232) !important;
+}
+::-webkit-scrollbar {
+  display: none;
+
+}
+.card-all{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  align-items:  center;
+  gap: 200rpx;
+  padding: 15rpx;
+  
+
+}
+.card-name{
+  font-size:30rpx;
+  color:black;
+  line-height:1.15;
+  border: 5rpx solid black;
+  font-weight:600;
+  display: block;
+}
+.show-all{
+  width: 200rpx ;
+  height:90rpx ;
+  background: rgb(227, 227, 230);
+   display:  grid; 
+   grid-template-rows: 1fr ;
+   grid-template-columns: 1fr 1fr ;
+  /* gap: 100rpx; */
+  padding: 0;
+
+  }
+  .show{
+    font-weight: bold;
+    text-align: center;
+    color: #01953d ;
+    font-size: 25rpx;
+    border: solid black;
+    display: flex;
+    align-items: center;
+  }

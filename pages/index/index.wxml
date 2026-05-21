@@ -3,13 +3,32 @@
     <scroll-view>
        <view    class= "w-100 h-10  d-flex flex-column p-2">
             <text class ="bonjour"   >Bonjour👋 </text>
-            <text  class='fs-0 text-black'  > Explorons le Sénégal  </text>
+            <text  class='fs-0 text-black '  > Explorons le Sénégal  </text>
        </view>
-       <view    class= "w-100 h-10  d-flex flex-column p-2">
-            <input-search icon="search">
-            </input-search>
+       <view    class= "w-100 h-25rpx d-flex justify-center px-2 py-1 position-relative">
+            <image src="/assets/icons/global/search.png" class=" search-icon position-absolute" />
+            <input placeholder="Où voulez-vous allez?" class="  w-100 h-100 p-1 ps-6 br-35 {{isFocus  ? 'input-focus' : 'border'}}"    bindfocus="onFocus" bindblur="onBlur" />
         </view>
-    </scroll-view>
-    
+          <view class=" mt-3 px-2 py-1">
+               <text class="text-dest">Destinations Populaires</text>
+          </view>
+          <scroll-view scroll-x="true" show-scrollbar="{{false}}"  class="scroll-list">
+          <button wx:for="{{DataZones}}"  wx:for-item="item" wx:key="id"  class="button-zone" 
+             >{{item.zone}} </button>
 
-</view>
+    </scroll-view>
+      <view  class="card-all" >
+        <text  class="card-name" > Destinations Populaires</text>
+        <button class="show-all">
+            <text  class="show"> Voir  Tout</text>
+            <img     src="/assets/icons/global/left-arrow.png"  mode="aspectFill"   imageStyle="width:50rpx ;height:50rpx"/>
+        </button>
+     </view>
+
+
+
+
+     </scroll-view>
+     
+
+</view> 
