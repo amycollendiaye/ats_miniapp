@@ -3,7 +3,7 @@
     "header":"/components/ui/header/index",
     "input-search":"/components/ui/input/index",
     "app-tab-bar":"/components/ui/tab-bar/index",
-    "img":"/components/ui/image/index",
+    "app-image":"/components/ui/image/index",
     "icons":"/components/ui/icons/base/index"
   }
 }

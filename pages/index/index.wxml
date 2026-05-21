@@ -21,7 +21,10 @@
         <text  class="card-name" > Destinations Populaires</text>
         <button class="show-all">
             <text  class="show"> Voir  Tout</text>
-            <img     src="/assets/icons/global/left-arrow.png"  mode="aspectFill"   imageStyle="width:50rpx ;height:50rpx"/>
+            <view class="d-flex align-items-center">
+                <app-image  src="/assets/icons/global/left-arrow.png"  mode="aspectFill"   imageStyle="width:40rpx; height:40rpx; display:flex ; justify-content:center; align-items:center;   "/>
+
+            </view>
         </button>
      </view>
 

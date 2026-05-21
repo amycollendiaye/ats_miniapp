@@ -74,18 +74,17 @@
   font-size:30rpx;
   color:black;
   line-height:1.15;
-  border: 5rpx solid black;
   font-weight:600;
   display: block;
 }
 .show-all{
   width: 200rpx ;
   height:90rpx ;
-  background: rgb(227, 227, 230);
+  background:none;
    display:  grid; 
    grid-template-rows: 1fr ;
-   grid-template-columns: 1fr 1fr ;
-  /* gap: 100rpx; */
+   grid-template-columns: 4fr 1fr ;
+  gap: 5rpx;
   padding: 0;
 
   }
@@ -94,7 +93,8 @@
     text-align: center;
     color: #01953d ;
     font-size: 25rpx;
-    border: solid black;
     display: flex;
     align-items: center;
+    justify-content: end;
+    
   }
